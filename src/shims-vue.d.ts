@@ -4,3 +4,8 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+
+declare module "*.svg?inline" {
+  const content: any;
+  export default content;
+}

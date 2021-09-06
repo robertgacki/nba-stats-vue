@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayersTable snapshots should render proper snapshot when players prop is empty 1`] = `
+<div
+  class="table-responsive"
+>
+  <table
+    class="table table-hover my-3"
+  >
+    <thead>
+      <tr>
+        <th
+          scope="col"
+        >
+          Player name
+        </th>
+        <th
+          class="text-center"
+          scope="col"
+        >
+          Position
+        </th>
+        <th
+          class="text-center"
+          scope="col"
+        >
+          Height
+        </th>
+        <th
+          class="text-center"
+          scope="col"
+        >
+          Weight
+        </th>
+        <th
+          scope="col"
+        >
+          Team name
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`PlayersTable snapshots should render proper snapshot when players prop is not empty 1`] = `
+<div
+  class="table-responsive"
+>
+  <table
+    class="table table-hover my-3"
+  >
+    <thead>
+      <tr>
+        <th
+          scope="col"
+        >
+          Player name
+        </th>
+        <th
+          class="text-center"
+          scope="col"
+        >
+          Position
+        </th>
+        <th
+          class="text-center"
+          scope="col"
+        >
+          Height
+        </th>
+        <th
+          class="text-center"
+          scope="col"
+        >
+          Weight
+        </th>
+        <th
+          scope="col"
+        >
+          Team name
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>
+          <a
+            class="link-primary"
+          >
+            Michael Jordan
+          </a>
+        </td>
+        <td
+          class="text-center"
+        >
+          F
+        </td>
+        <td
+          class="text-center"
+        >
+          7'3"
+        </td>
+        <td
+          class="text-center"
+        >
+          200 lbs
+        </td>
+        <td>
+          Chicago Bulls
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            class="link-primary"
+          >
+            Marcin Gortat
+          </a>
+        </td>
+        <td
+          class="text-center"
+        >
+          C
+        </td>
+        <td
+          class="text-center"
+        >
+          8'5"
+        </td>
+        <td
+          class="text-center"
+        >
+          235 lbs
+        </td>
+        <td>
+          New York Knicks
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+`;
